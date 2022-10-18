@@ -1,0 +1,117 @@
+.avatar-uploader .avatar {
+    height: 178px;
+    display: block;
+    width: 100%;
+    background-color: #BFBFBF;
+}
+
+.acon {
+    // background-color: pink;
+    width: 100%;
+    hr {
+        background-color: #E8E8E8;
+        height: 1px;
+        opacity: 0;
+    }
+
+    .userinfo {
+        margin: auto;
+        display: flex;
+
+        .accountinfo {
+            margin-top: 22px;
+            width: 120px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #222;
+            // background-color: yellow;
+        }
+
+        .inforight {
+            flex: 1;
+            margin-top: 22px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #222;
+            // background-color: pink;
+
+            .edit {
+                font-size: 14px;
+                color: #1356BD;
+
+                &:hover {
+                    color: #1A8AFF;
+                }
+            }
+
+            .accpublic {
+                padding: 24px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+                line-height: 20px;
+                box-shadow: inset 0 -1px 0 #e8e8e8;
+            }
+
+            .inforig {
+                // width: 1146px;
+                flex: 1;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .infoleft {
+                width: 142px;
+                font-size: 14px;
+                color: #000;
+            }
+
+            .usersname {
+                display: flex;
+
+
+                .usersname-right {
+
+
+                    .usenick {
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+            }
+
+            .brief-introduction {
+
+                .introduct-right {
+                    .intd-prompt {
+                        font-size: 14px;
+                        color: #BFBFBF;
+                    }
+                }
+            }
+
+            .usersavat {
+                display: flex;
+                justify-self: start;
+                margin: 20px 0;
+
+                .avatar {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .replaceavat {
+
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
+

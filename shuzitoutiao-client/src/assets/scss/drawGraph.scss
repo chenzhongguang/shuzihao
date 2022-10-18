@@ -1,0 +1,181 @@
+.demo-date-picker {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.demo-date-picker .block {
+  text-align: center;
+  border-right: solid 1px var(--el-border-color);
+  flex: 1;
+}
+
+.demo-date-picker .block:last-child {
+  border-right: none;
+}
+
+.traffanaly {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+
+  .show1 {
+    display: flex;
+
+    .lable {
+      display: block;
+      font-size: 14px;
+      line-height: 30px;
+      margin-right: 12px;
+      width: 50px;
+    }
+
+    .labeltime {
+      color: #999;
+    }
+  }
+}
+
+.titleborder {
+  padding: 80px 0 46px 0;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.show {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px 12px;
+  font-size: 14px;
+  color: #666666;
+
+  .show1 {
+    padding: 20px 0 9px 0;
+
+    .count {
+      font-size: 32px;
+      margin: 8px;
+      text-align: center;
+    }
+
+    .fc {
+      color: black;
+    }
+  }
+}
+
+// 数据趋势的样式
+.DataTrending {
+  padding: 20px 20px 4px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin-top: 24px;
+
+  .datapending {
+    display: flex;
+    justify-content: space-between;
+
+    .rightchoose {
+      display: flex;
+
+      .dataandped {
+        display: flex;
+        border: 1px solid #e6dcdc;
+        border-radius: 8px;
+
+        .qs {
+          border: 1px solid #ff5e5e !important;
+          color: #ff5e5e;
+        }
+
+        .datalist {
+          width: 90px;
+          height: 30px;
+          padding: 0 16px;
+          line-height: 30px;
+          border: 1px solid #e6dcdc;
+          font-size: 14px;
+        }
+      }
+
+      .upload {
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+// 画图
+.myEcharts {
+  width: 100%;
+  height: 500px;
+  padding: 30px auto;
+}
+
+.echar {
+  height: 0;
+  overflow: hidden;
+}
+
+.chtslist {
+  height: 0;
+  overflow: hidden;
+}
+
+#genderEachrts {
+  width: 500px;
+  height: 300px;
+}
+
+#ageEacharts {
+  width: 600px;
+  height: 300px;
+}
+
+#paceEacharts {
+  width: 100%;
+  height: 300px;
+}
+
+// 地图
+.mapChart {
+  height: 700px;
+  border: 1px solid red;
+  width: 700px;
+  background-color: #e3a7a2;
+
+  .title-item {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-weight: normal;
+    overflow: hidden;
+  }
+
+  .midtop {
+    width: 99%;
+    height: 430px;
+  }
+}
+
+.page {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.col {
+  color: #ff5e5e;
+}
+
+.styti {
+  display: flex;
+}

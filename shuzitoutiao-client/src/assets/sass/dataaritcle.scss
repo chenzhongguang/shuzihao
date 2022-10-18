@@ -1,0 +1,215 @@
+.Option2 {
+  width: 100%;
+  // height: 100%;
+  min-height: 500px; // 先给一个高度
+  background-color: #ffffff;
+  .top {
+    color: #222222;
+    height: 30px;
+    // background-color: pink;
+  }
+  .center {
+    margin-bottom: 24px;
+  }
+  .center-a {
+    display: flex;
+    justify-content: space-between;
+    .center-span {
+      font-size: 14px;
+      color: #888888;
+      margin-right: 40px;
+    }
+  }
+  .bottom {
+    //   height: 167px;
+    // background-color: aquamarine;
+    .bottom-a {
+      height: 107px;
+      display: flex;
+      .box-first {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: #666666;
+        font-size: 14px;
+        .span {
+          font-size: 32px;
+          color: #222222;
+        }
+      }
+    }
+    .bottom-b {
+      margin-top: 30px;
+      height: 32px;
+      // background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      .bottom-leave {
+        width: 90px;
+        height: 32px;
+        box-sizing: border-box;
+        border: 1px solid red;
+        color: red;
+        line-height: 32px;
+        text-align: center;
+        border-radius: 7px;
+      }
+    }
+  }
+  .drawing {
+    height: 32;
+    margin: 40px 0px 12px;
+    // background-color: antiquewhite;
+  }
+  .quanbu {
+    // background-color: pink;
+    margin-bottom: 20px;
+    .quanbu-top {
+      padding: 24px 0;
+      display: flex;
+      .quanbuab {
+        margin-right: 10px;
+        padding: 3px 11px;
+      }
+      .all {
+        border: 2px solid red;
+        border-radius: 7px;
+        color: red;
+      }
+    }
+    .quanbux {
+      overflow: hidden;
+      height: 96px;
+      // background-color: yellow;
+      display: flex;
+      .quanbu-b {
+        // border: 1px solid black;
+        flex: 1;
+        .earnings {
+          font-size: 14px;
+          height: 100%;
+          margin-right: 24px;
+          padding: 20px 0 0 16px;
+          border: 2px solid #999999;
+          border-radius: 10px;
+          .earnings-a {
+            color: #222222;
+            margin-bottom: 10px;
+            .ear-span {
+              font-weight: 500;
+              font-size: 24px;
+              color: black;
+            }
+          }
+          .earnings-b {
+            color: #666666;
+            .ear-span1 {
+              font-size: 14px;
+              color: black;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .quanbuy {
+      height: 0;
+    }
+  }
+  .box-drawing {
+    .time {
+      height: 32px;
+      // background-color: pink;
+      display: flex;
+      .time-left {
+        line-height: 32px;
+        width: 442px;
+        height: 32px;
+        // background-color: cadetblue;
+        display: flex;
+        .time-a {
+          flex: 1;
+          display: flex;
+          .left {
+            margin-right: 5px;
+          }
+          .rigth {
+            flex: 1;
+            // background-color: pink;
+            display: flex;
+            span {
+              flex: 1;
+              // border: 1px solid black;
+              text-align: center;
+              color: #222222;
+              font-size: 13px;
+            }
+            .rigthday{
+              color: red;
+            }
+            span:hover {
+              color: #888888;
+            }
+          }
+        }
+        .time-b {
+          width: 238px;
+          height: 32px;
+          // background-color: blueviolet;
+        }
+      }
+      .time-rigth {
+        flex: 1;
+        // background-color: red;
+        display: flex;
+        justify-content: flex-end;
+        line-height: 32px;
+        .tendency {
+          padding: 0 16px;
+          height: 32px;
+          border-radius: 7px;
+          border: 1px solid black;
+          padding: 0 10px;
+        }
+        .list {
+          padding: 0 16px;
+          margin-right: 10px;
+          border-radius: 7px;
+          border: 1px solid black;
+        }
+        .lista {
+          color: red;
+          border: 1px solid red;
+        }
+      }
+    }
+    .write-map {
+      margin-top: 30px;
+      height: 370px;
+      width: 100%;
+      // background-color: yellow;
+    }
+    .write-map1 {
+      overflow: hidden;
+      height: 0;
+    }
+    .timecontent {
+      margin-top: 30px;
+      // background-color: antiquewhite;
+      .label {
+        display: flex;
+      }
+    }
+
+    .timecontent1 {
+      height: 0;
+      overflow: hidden;
+    }
+    .next {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
